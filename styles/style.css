@@ -1,0 +1,74 @@
+#input-name::placeholder{
+    color: white;
+}
+#input-email::placeholder{
+    color: white;
+}
+#input-pass::placeholder{
+    color: white;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(333deg, rgba(138,195,200,1) 0%, rgba(63,134,237,1) 48%, rgba(138,195,200,1) 82%);
+
+}
+#login-box{
+    height: 430px;
+    box-shadow: 10px 10px 27px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 27px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 27px -8px rgba(0,0,0,0.75);
+}
+#heading{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#input-name{
+    background-color: rgb(21, 21, 22);
+    color: white;
+}
+#input-name:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#input-email{
+    background-color: rgb(21, 21, 22);
+    color: white;
+}
+#input-email:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#input-pass{
+    background-color: rgb(21, 21, 22);
+    color: white;
+}
+#input-pass:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#input-icon-name{
+    background-color:rgb(21, 21, 22); 
+    font-size: 20px;
+}
+#input-icon-email{
+    background-color:rgb(21, 21, 22); 
+    font-size: 20px;
+}
+#input-icon-pass{
+    background-color:rgb(21, 21, 22); 
+    font-size: 20px;
+    
+}
+#show-cities{
+    text-transform: capitalize;
+}
+#input:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
